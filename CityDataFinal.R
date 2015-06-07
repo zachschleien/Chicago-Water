@@ -130,5 +130,3 @@ table(compTable)
 #1 means late payment
 #out of 3933 customers who pay late. It got 1 correct.
 #out of 13,135 customers who pay on-time, it got 13132 customers correctly
-
-#test
