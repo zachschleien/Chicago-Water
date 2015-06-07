@@ -10,7 +10,7 @@ payment.plan.yes.arrange <- subset(payment_plan, payment_plan$"Payment Plan Arra
 #use length to count the length of payment yes
 yes.arrange.ward <- tapply(payment.plan.yes.arrange$"Payment Plan Arrangement", payment.plan.yes.arrange$Ward, length)
 
-#apply function based on payment plan arrangement and ward
+#apply function  based on payment plan arrangement and ward
 #group by ward
 #use length to count the length of payment plan
 total.arrange.ward <- tapply(payment_plan$"Payment Plan Arrangement", payment_plan$Ward, length)
